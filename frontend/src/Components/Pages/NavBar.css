@@ -1,0 +1,50 @@
+*{
+    text-decoration: none;
+}
+.navContainer{
+    display: flex;
+    border-bottom: 1px solid #adc1c6 ;
+    height: 65px;
+}
+.navContainer #menulist{
+    font-size: 25px;
+    position: static;
+    font-weight: 500;
+    bottom: -5px;
+    right: -40px;
+    width: 400px;
+}
+
+.icons{
+    display: flex;
+    align-items: center;
+    padding-left: 650px;
+    padding-bottom: 20px;
+    color: beige;
+    font-size: 35px;
+    position: relative;
+    
+}
+#bell{
+   color: #545859;
+   margin-right: 20px; 
+}
+#poweroff{
+    color: #f70000;
+    margin-right: 20px; 
+}
+.circle{
+    width: 40px;
+    height: 40px;
+    border-radius: 50px;
+    text-align: center;
+    font-size: 30px;
+    background-color: #22428F;
+    text-decoration: none;
+}
+.circletext{
+    position: relative;
+    top: -1px;
+    right: -0px;
+    text-decoration: none;
+}

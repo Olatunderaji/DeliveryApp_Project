@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+*{
+    font-family: 'Montserrat', sans-serif;
+    margin: 0px;
+    padding: 0px;
+    text-decoration: none; 
+}
+.nav-pills .nav-link{
+    border-radius: 5px;
+    color: #000000;
+    width: 0px;
+    margin-left: 20px;
+    padding-left: 40px;
+    height: 50px;
+    text-align: left;
+}
+.nav-link{
+    padding: 4px;
+}
+.nav-pills .nav-link:hover{
+    border-bottom: 2px solid #22428F;
+    border-radius: 0px;
+    color: #000000;
+    padding: none;
+    width: none;
+}
+.nav-pills .nav-item:not(:nth-last-child(1)) .nav-link{
+    border-right: 2px solid rgb(255, 255, 255);
+}
+.tabsbox{
+width: 1000px;
+}
+.container .nav .active{
+    background-color:  transparent ;
+    color: #000000;
+}
+.Container{
+    border-bottom: 2px solid #a22424;
+    background-color: none;
+
+}
+.nav-pills{
+    width: 60%;
+}
+.bottomline{
+    border-bottom: 1px solid #cccccc;
+    width: 100%;
+    position: relative;
+    top: 50px;
+}
+.tabtext p{
+    text-align: center;
+}
+.tabtext h2{
+    text-align: center;
+    font-weight: bold;    
+}
+
+.tabtext{
+width: 1000px;
+}
+
+.wallet{
+    width: 200px;
+    text-align: center;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 50px;
+}

@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+*{
+    font-family: 'Montserrat', sans-serif;
+    margin: 0px;
+    padding: 0px;
+    text-decoration: none; 
+}
+
+
+.mycontainer{
+    display: flex;
+}
+
+main{
+    width: 100%;
+    padding: 20px;
+    height: 100vh;
+}
+
+
+.sidebar{
+    background-color: #22428F;
+    color: #ffffff;
+    width: 370px;
+}
+
+/* .scrolldown::-webkit-scrollbar-{
+ width: 5px;
+}
+.scrolldown::-webkit-scrollbar-thumb{
+  background-color: #8b0101;
+  border-radius: 10px;
+} */
+
+.top_section{
+    display: flex;
+    align-items: center;
+    padding: 20px 15px;
+    border: none;
+    border-bottom: 0.5px solid #adc1c6 ;
+}
+
+.logo{
+    font-size: 30px;
+    margin-left: 30px;
+}
+.bars{
+    display: flex;
+    font-size: 25px;
+    margin-left: 30px;
+}
+.link{
+    width: 230px;
+    display: flex;
+    color: #fff;
+    padding: 10px 15px;
+    gap: 20px;
+    transition: all 0.5s;
+    margin-bottom: 30px;
+    margin-left: 30px;
+    line-height: 30px;
+    font-size: 20px;
+    align-items: center;
+    margin-top: 20px;
+    text-decoration: none;
+    overflow-y: scroll;
+}
+/* 
+.link::-webkit-scrollbar-width{
+width: 5px;
+} */
+
+.link::-webkit-scrollbar-thumb{
+    background-color: #a22424;
+    border-radius: 10px;
+}
+
+.link.logo{
+    background-color: #a78484;
+}
+.link:hover{
+    background-color: #a1e9f8;
+    color: #22428F;
+    border-radius: 10px;
+}
+.transactionContainer{
+    display: flex;
+    margin-left: -10px;
+    border-bottom: solid 1px;
+    padding-bottom: 20px;
+    position: relative;
+}
+.transactions{
+    margin-left: 20px;
+    padding-left: 0px;
+    transition: 0.2s;
+    font-size: 20px;
+    color: #88898a;
+}
+.transactions:hover{
+border-bottom: solid 2px #033fa5;
+color: #033fa5;
+border-radius: 1px;
+}
+.alignContainer{
+    display: flex;
+    padding-left: 40px;
+}
+
+
